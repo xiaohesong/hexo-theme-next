@@ -51,6 +51,7 @@ menu:
   #about: /about/
   archives: /archives/
   tags: /tags/
+  categories: /categories
   #sitemap: /sitemap.xml
   #commonweal: /404/
 
@@ -168,7 +169,7 @@ sidebar:
 
   # Scroll percent label in b2t button
   scrollpercent: false
-  
+
   # Enable sidebar on narrow view
   onmobile: false
 
@@ -323,8 +324,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: issue
   count: true
 
 # Hypercomments
@@ -425,9 +426,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: Fq4dc8p8z538yhNuMyjuWMVl-gzGzoHsz
+  app_key: Itm6LboIAIEtNXBPHIz3pmXs
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -563,7 +564,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
